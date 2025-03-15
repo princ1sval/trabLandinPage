@@ -1,0 +1,63 @@
+/* Estilos para o footer da página */
+footer {
+    background-color: black;
+    /* Cor de fundo */
+    grid-column: 1/4;
+    /* Colunas do grid */
+    grid-row: 1/ span;
+    /* Linhas do grid */
+    display: flex;
+    /* Layout flexível */
+    color: #00ff00;
+    /* Cor do texto */
+}
+
+/* Configuração da seção contato */
+.contato {
+    display: flex;
+    /* Layout flexível */
+    flex-direction: column;
+    /* Direção dos elementos */
+    height: 350px;
+    /* Altura */
+    width: 250px;
+    /* Largura */
+}
+
+/* Estilos para a seção de nosso time */
+.nossoTime {
+    display: grid;
+    /* Layout de grid */
+    grid-template-columns: repeat(4, 1fr);
+    /* Colunas do grid */
+    grid-template-rows: auto;
+    /* Linhas do grid */
+    text-align: center;
+    /* Centralização do texto */
+    align-items: center;
+    /* Alinhamento vertical */
+    justify-content: center;
+    /* Alinhamento horizontal */
+}
+
+/* Estilos para os itens da seção de nosso time */
+.nossoTime li {
+    display: flex;
+    /* Layout flexível */
+    align-items: center;
+    /* Alinhamento vertical */
+    justify-content: center;
+    /* Alinhamento horizontal */
+    gap: 10px;
+    /* Espaçamento */
+}
+
+/* Estilos para as imagens da seção de nosso time */
+.nossoTime img {
+    width: 180px;
+    /* Largura */
+    border-radius: 400px;
+    /* Raio de borda */
+    border: 4px solid #00ff00;
+    /* Borda sólida */
+}

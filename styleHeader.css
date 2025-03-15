@@ -1,0 +1,85 @@
+/* Estilos para o cabeçalho */
+header {
+    display: flex;
+    /* Flexbox */
+    background-color: black;
+    /* Cor de fundo */
+    grid-column: 1/4;
+    /* Coluna da grid */
+    border-bottom: 4px solid #00ff00;
+    /* Borda inferior */
+    justify-content: space-between;
+    /* Alinhamento dos itens */
+    padding: 0 20px;
+    /* Preenchimento interno */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    display: flex;
+    /* Flexbox */
+    align-items: center;
+    /* Centralização vertical */
+    flex-grow: 1;
+    /* Ocupa todo o espaço disponível */
+}
+
+nav img {
+    width: 50px;
+    /* Largura da imagem */
+    display: flex;
+    /* Flexbox */
+    justify-content: flex-start;
+    /* Alinhamento à esquerda */
+}
+
+nav p {
+    font-size: 30px;
+    /* Tamanho da fonte */
+}
+
+nav ul {
+    display: flex;
+    /* Flexbox */
+    list-style: none;
+    /* Lista sem marcadores */
+    padding: 0;
+    /* Preenchimento */
+    margin: 0;
+    /* Margem */
+    background-color: black;
+    /* Cor de fundo */
+    font-size: 25px;
+    /* Tamanho da fonte */
+    justify-content: flex-end;
+    /* Alinhamento à direita */
+    flex-grow: 1;
+    /* Ocupa todo o espaço disponível */
+}
+
+nav ul li {
+    padding: 0 10px;
+    /* Espaçamento à esquerda */
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* Sem decoração */
+    color: #00ff00;
+    /* Cor do texto */
+    padding: 12px 14px;
+    /* Preenchimento */
+}
+
+nav ul li a:hover {
+    color: black;
+    /* Cor do texto ao passar o mouse */
+    background-color: #00ff00;
+    /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o título "TituloWOogle" */
+.TituloOogle {
+    color: #00ff00;
+    /* Cor do texto */
+}

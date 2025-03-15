@@ -1,0 +1,128 @@
+/* Estilos para o corpo da página */
+body {
+    margin: 0;
+    /* Margem */
+    background-color: rgb(23, 23, 23);
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    border-bottom: none;
+    /* Remover borda inferior */
+}
+
+/* Estilos para o container principal */
+.containerLayout {
+    display: grid;
+    /* Layout de grid */
+    grid-template-columns: 1fr;
+    /* Coluna única */
+    grid-template-rows: 100px 1fr 365px;
+    /* Linhas */
+}
+
+/* Configuração para o container de apresentação */
+.containerApresentacao {
+    display: grid;
+    /* Layout de grid */
+    grid-template-columns: 2fr 1fr;
+    /* Colunas */
+    margin-left: 5%;
+    /* Margem à esquerda */
+    padding-top: 50px;
+    /* Preenchimento superior */
+    padding-bottom: 100px;
+    /* Preenchimento inferior */
+    font-size: 20px;
+    /* Tamanho da fonte */
+}
+
+/*Configuração de imagem da imagem do homem programando*/
+.containerApresentacao img {
+    width: 300px;
+    /* Largura da imagem */
+    justify-content: flex-end;
+    /* Alinhamento à direita */
+    margin-left: 60px;
+    /* Margem à esquerda */
+    border: 7px solid #00ff00;
+    /* Borda */
+    margin-top: 10%;
+    /* Margem superior */
+}
+
+/* Configuração das imagens: Linguagens de programação*/
+.apresentacaoWoogle img {
+    width: 70px;
+    /* Largura */
+    height: 70px;
+    /* Altura */
+    border-radius: 40px;
+    /* Raio de borda */
+}
+
+/* Formatação dos cards */
+.formatacaoCards {
+    display: flex;
+    /* Layout flexível */
+    justify-content: space-around;
+    /* Espaçamento uniforme */
+    padding-bottom: 70px;
+    /* Preenchimento inferior */
+}
+
+/* Estilos para os cards */
+.cards {
+    display: flex;
+    /* Layout flexível */
+    flex-direction: column;
+    /* Direção dos elementos */
+    justify-content: center;
+    /* Alinhamento vertical */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Alinhamento vertical */
+    text-align: center;
+    /* Alinhamento do texto */
+    align-items: center;
+    /* Alinhamento horizontal */
+    color: white;
+    /* Cor do texto */
+    border: 7px solid #00ff00;
+    /* Borda */
+    width: 260px;
+    /* Largura */
+    height: 460px;
+    /* Altura */
+    padding: 20px 45px;
+    /* Preenchimento */
+    border-radius: 10px;
+    /* Raio de borda */
+    background-color: #000000;
+    /* Cor de fundo */
+    margin-top: 10vh;
+    /* Margem superior */
+    margin-bottom: 10vh;
+    /* Margem inferior */
+}
+
+/* Imagens dos cards */
+.cards img {
+    width: 200px;
+    /* Largura da imagem */
+    display: flex;
+    /* Layout flexível */
+    border: 3px solid #00ff00;
+    /* Borda */
+}
+
+/* Condiguração do Titulo do Card */
+.TituloCard {
+    color: #00ff00;
+    /* Cor do texto */
+}
+
+/* Cor do h1 da pagina */
+.BemVindo-Verde {
+    color: #00ff00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Cor do texto */
+}
